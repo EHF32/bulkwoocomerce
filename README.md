@@ -1,6 +1,31 @@
+# WareWeb BulkWooComerce
+
+![License](https://img.shields.io/github/license/EHF32/bulkwoocomerce?color=yellow&style=flat-square)
+![Maintenance](https://img.shields.io/maintenance/yes/2021?style=flat-square)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/ehf32/bulkwoocomerce?style=flat-square)
+
+> EN: 🛒 Simple Next.js app to bulk create products for woocomerce with variations 
+
+> ES 🛒 Aplicacion simple de Next.js para añadir productos de woocomerce en masa y con variaciones
+
+
+---
+
+<img width="620px"   src="https://i.imgur.com/0cYRWJP.png" />
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+
+### **Installation**
+
+
+### **Installation**
+- Choose a folder project in your system and switch in `cd [folder path]`
+- Clone the repo in your folder path `git clone https://github.com/EHF32/bulkwoocomerce.git`
+- In order to install the project and all dependencies, enter in the project folder and run `npm install`
+
+### **Getting Started**
 
 First, run the development server:
 
@@ -12,23 +37,20 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## **Contributing**
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-## Learn More
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
+3. Commit your Changes (`git commit -m 'Add some NewFeature'`)
+4. Push to the Branch (`git push origin feature/NewFeature`)
+5. Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+## **License**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Distributed under the MIT License. See `LICENSE` for more information.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## **Contact**
+Ángel Herrador - <a href="https://github.com/EHF32">GitHub</a>
