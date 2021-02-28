@@ -11,7 +11,7 @@
 
 ---
 
-<img width="620px"   src="https://i.imgur.com/0cYRWJP.png" />
+<img  src="https://i.imgur.com/0cYRWJP.png" />
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
