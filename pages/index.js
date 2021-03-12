@@ -11,6 +11,7 @@ export default function Home() {
   const [data, setData] = useState([{ a: "" }]);
   const [datosRecogidos, setDatosRecogidos] = useState([{}]);
   const [tickDownload, setTickdownload] = useState(0);
+  const [nombreArchivo, setNombreArchivo] = useState("productos");
 
   useEffect(() => {
     if (tickDownload == 1) {
@@ -47,12 +48,19 @@ export default function Home() {
           Añadir fila
         </a>
         <br />
-
-        <a onClick={handleCSVData} className="btn btn-primary">
-          Descargar CSV
-        </a>
+        <div className="form-inline">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Nombre archivo"
+            onChange={(v) => setNombreArchivo(v.target.value)}
+          />
+          <a onClick={handleCSVData} className="btn btn-primary">
+            Descargar CSV
+          </a>
+        </div>{" "}
         <CSVLink
-          filename="wareweb.csv"
+          filename={nombreArchivo + ".csv"}
           asyncOnClick={true}
           ref={csvRef}
           style={{ display: "none" }}
